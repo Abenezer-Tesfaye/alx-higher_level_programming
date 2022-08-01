@@ -1,10 +1,15 @@
 #!/usr/bin/python3
-''' function that returns the list
-'''
+""" module contains: lookup """
 
 
 def lookup(obj):
-    ''' function: lookup()
-    Returns a list object
-    '''
+    """
+        returns the list of available attributes
+        and methods of obj
+        Args:
+            obj: object whose attributes and methods
+                 are to be listed
+        Return:
+            list of attributes and methods of obj
+    """
     return dir(obj)
